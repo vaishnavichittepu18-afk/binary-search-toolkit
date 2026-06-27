@@ -14,3 +14,4 @@ long cubeRoot(long n){
     return -1;
 }
 //Time: O(logn)
+//finding square root (replace r=n since for maximum n value m=10^9 then m*m does not overflow and change val=m*m)
